@@ -9,7 +9,7 @@ public class CarController : MonoBehaviour
     public float accelerationFactor = 30.0f;
     public float turnFactor = 3.5f;
     public float maxSpeed = 20;
-
+    
     //Local variables
     float accelerationInput = 0;
     float steeringInput = 0;
