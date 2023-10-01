@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class scrMainMenu : MonoBehaviour
 {
-    public void StartGame()
+    public void StartGame(int level)
     {
         Time.timeScale = 1;
-	SceneManager.LoadScene(1);
+	SceneManager.LoadScene(level);
     }
 
     public void ReturnMenu()

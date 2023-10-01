@@ -350,7 +350,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 203451135}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1810750858}
+        m_TargetAssemblyTypeName: scrMainMenu, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &203451135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,7 +483,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 271607850}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1810750858}
+        m_TargetAssemblyTypeName: scrMainMenu, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &271607850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,9 +704,9 @@ RectTransform:
   - {fileID: 277234088}
   m_Father: {fileID: 1244335210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.99, y: -87.64}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 43.010002, y: -137.64}
   m_SizeDelta: {x: 191.63, y: 47.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &352501726
@@ -861,7 +885,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 394333982}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1810750858}
+        m_TargetAssemblyTypeName: scrMainMenu, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &394333982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1116,7 +1152,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 594802989}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1810750858}
+        m_TargetAssemblyTypeName: scrMainMenu, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &594802989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2472,7 +2520,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1051856755}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1810750858}
+        m_TargetAssemblyTypeName: scrMainMenu, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1051856755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3041,11 +3101,11 @@ MonoBehaviour:
       - m_Target: {fileID: 1810750858}
         m_TargetAssemblyTypeName: scrMainMenu, Assembly-CSharp
         m_MethodName: StartGame
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3504,9 +3564,9 @@ RectTransform:
   - {fileID: 521439778}
   m_Father: {fileID: 1199732718}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319, y: 200}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -269, y: 150}
   m_SizeDelta: {x: 118.399994, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2101322461

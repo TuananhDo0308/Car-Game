@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class CarManager : MonoBehaviour
 {
     public static bool isGameOver,isGameWin;
-    public GameObject gameOverScreen,gameWinScreen,gamePauseScreen,btnPause;
+    public GameObject gameOverScreen,gameWinScreen,gamePauseScreen,btnPause,time;
     private void Awake(){
         isGameOver = false;
         isGameWin=false;
@@ -18,11 +18,15 @@ public class CarManager : MonoBehaviour
     void Update()
     {
         if(isGameOver){
+            Time.timeScale = 0;
             gameOverScreen.SetActive(true);
             gameObject.SetActive(false);
             btnPause.SetActive(false);
+            time.SetActive(false);
         } 
         if(isGameWin){
+            Time.timeScale = 0;
+            time.SetActive(false);
             gameObject.SetActive(false);
             gameWinScreen.SetActive(true);
             btnPause.SetActive(false);
@@ -39,7 +43,8 @@ public class CarManager : MonoBehaviour
         btnPause.SetActive(true);
     }
     public void NextLevel(){
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        Time.timeScale=1.0f;
     }
     public void MainMenu(){
         SceneManager.LoadScene(0);
