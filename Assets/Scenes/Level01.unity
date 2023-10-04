@@ -15896,9 +15896,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   driftFactor: 0.5
-  accelerationFactor: 8
-  turnFactor: 2.5
-  maxSpeed: 8
+  accelerationFactor: 10
+  turnFactor: 3
+  maxSpeed: 10
 --- !u!114 &1833889657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16248,7 +16248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1931214368
 Transform:
   m_ObjectHideFlags: 0
@@ -18601,7 +18601,73 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 1931214373}
+    m_ColliderPaths:
+    - - X: 134765632
+        Y: -59375000
+      - X: 136406256
+        Y: -58515624
+      - X: 138515632
+        Y: -56640624
+      - X: 139453120
+        Y: -54687500
+      - X: 140000000
+        Y: -52500000
+      - X: 140000000
+        Y: 52343752
+      - X: 139609376
+        Y: 54609376
+      - X: 138046880
+        Y: 57187500
+      - X: 136015632
+        Y: 58906248
+      - X: 134453120
+        Y: 59531248
+      - X: 132578128
+        Y: 59921876
+      - X: 132187504
+        Y: 60000000
+      - X: -132265624
+        Y: 60000000
+      - X: -133828128
+        Y: 59687500
+      - X: -136328128
+        Y: 58671876
+      - X: -138124992
+        Y: 56953124
+      - X: -138750000
+        Y: 56093752
+      - X: -139765632
+        Y: 53750000
+      - X: -140000000
+        Y: 52500000
+      - X: -140000000
+        Y: -52500000
+      - X: -139921872
+        Y: -53203124
+      - X: -138750000
+        Y: -56015624
+      - X: -138203120
+        Y: -56718752
+      - X: -136875008
+        Y: -58203124
+      - X: -134687504
+        Y: -59531248
+      - X: -133046872
+        Y: -59843752
+      - X: -132265624
+        Y: -60000000
+      - X: 132500000
+        Y: -60000000
+    - - X: -110000000
+        Y: -30000000
+      - X: -110000000
+        Y: 30000000
+      - X: 110000000
+        Y: 30000000
+      - X: 110000000
+        Y: -30000000
   m_CompositePaths:
     m_Paths:
     - - {x: 13.249997, y: -6}
