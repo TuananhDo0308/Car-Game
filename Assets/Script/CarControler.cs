@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-        [Header("Car settings")]
     public float driftFactor = 0.95f;
     public float accelerationFactor = 30.0f;
     public float turnFactor = 3.5f;
     public float maxSpeed = 20;
     
-    //Local variables
+    
     float accelerationInput = 0;
     float steeringInput = 0;
 
@@ -18,7 +17,7 @@ public class CarController : MonoBehaviour
 
     float velocityVsUp = 0;
 
-    //Components
+    
     Rigidbody2D carRigidbody2D;
 
     //Awake is called when the script instance is being loaded.
@@ -39,12 +38,12 @@ public class CarController : MonoBehaviour
 
     void ApplyEngineForce()
     {
-        //Apply drag if there is no accelerationInput so the car stops when the player lets go of the accelerator
+        
         if (accelerationInput == 0)
             carRigidbody2D.drag = Mathf.Lerp(carRigidbody2D.drag, 3.0f, Time.fixedDeltaTime * 3);
         else carRigidbody2D.drag = 0;
 
-        //Caculate how much "forward" we are going in terms of the direction of our velocity
+        
         velocityVsUp = Vector2.Dot(transform.up, carRigidbody2D.velocity);
 
         //Limit so we cannot go faster than the max speed in the "forward" direction
