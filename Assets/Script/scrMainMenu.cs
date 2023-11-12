@@ -7,7 +7,7 @@ public class scrMainMenu : MonoBehaviour
 {
     public void StartGame(int level)
     {
-        Time.timeScale = 1;
+    Time.timeScale = 1;
 	SceneManager.LoadScene(level);
     }
 
